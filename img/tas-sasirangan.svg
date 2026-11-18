@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="700" viewBox="0 0 800 700" role="img" aria-label="Tas Sasirangan">
+  
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#fffafc"/>
+        <stop offset="1" stop-color="#fff0f5"/>
+      </linearGradient>
+      <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#24202b"/>
+        <stop offset="1" stop-color="#19171e"/>
+      </linearGradient>
+      <pattern id="motif" width="82" height="72" patternUnits="userSpaceOnUse">
+        <g fill="none" stroke="#ffeaf2" stroke-width="4"><path d="M0 18 L20 4 L40 18 L60 4 L82 18 M0 54 L20 40 L40 54 L60 40 L82 54"/><circle cx="41" cy="36" r="8"/></g>
+      </pattern>
+      <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+        <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#5a2940" flood-opacity=".20"/>
+      </filter>
+    </defs>
+  <rect width="800" height="700" rx="34" fill="url(#bg)"/>
+  <ellipse cx="405" cy="590" rx="280" ry="38" fill="#6d3850" opacity=".10"/>
+  
+        <g filter="url(#shadow)">
+          <path d="M270 260 Q270 95 400 95 Q530 95 530 260" fill="none" stroke="#25202a" stroke-width="28" stroke-linecap="round"/>
+          <path d="M180 250 Q180 225 210 225 L590 225 Q620 225 620 255 L600 560 Q598 585 570 585 L230 585 Q202 585 200 558 Z" fill="url(#cloth)"/>
+          <path d="M180 250 Q180 225 210 225 L590 225 Q620 225 620 255 L600 560 Q598 585 570 585 L230 585 Q202 585 200 558 Z" fill="url(#motif)"/>
+          <path d="M180 250 Q180 225 210 225 L590 225 Q620 225 620 255 L600 560 Q598 585 570 585 L230 585 Q202 585 200 558 Z" fill="none" stroke="#fff" stroke-width="5" opacity=".6"/>
+        </g>
+  <g opacity=".8">
+    <circle cx="690" cy="95" r="34" fill="#f7d6e5" opacity=".55"/>
+    <path d="M690 75 q-24 -20 -32 4 q15 2 32 -4 M690 75 q23 -22 34 0 q-15 6 -34 0" fill="#9a5976" opacity=".7"/>
+  </g>
+  <text x="400" y="655" text-anchor="middle" font-family="Georgia,serif" font-size="25" font-weight="bold" fill="#65344d">Tas Sasirangan</text>
+</svg>

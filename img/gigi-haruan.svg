@@ -1,9 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
-  <defs><pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse">
-        <path d="M0 30 L10 10 L20 30 L30 10 L40 30" fill="none" stroke="#e0a526" stroke-width="5"/></pattern></defs>
-  <rect width="600" height="400" fill="#8b1e3f"/>
-  <rect width="600" height="400" fill="url(#p)" opacity="0.55"/>
-  <rect x="60" y="150" width="480" height="100" rx="14" fill="#ffffff" opacity="0.92"/>
-  <text x="300" y="196" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#8b1e3f">Motif Gigi Haruan</text>
-  <text x="300" y="230" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#444">Sasirangan Banua · gambar contoh</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="700" viewBox="0 0 800 700" role="img" aria-label="Kain Motif Gigi Haruan">
+  
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#fffafc"/>
+        <stop offset="1" stop-color="#fff0e7"/>
+      </linearGradient>
+      <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#8d1747"/>
+        <stop offset="1" stop-color="#651033"/>
+      </linearGradient>
+      <pattern id="motif" width="82" height="72" patternUnits="userSpaceOnUse">
+        <path d="M0 18 L20 4 L40 18 L60 4 L82 18 M0 54 L20 40 L40 54 L60 40 L82 54" fill="none" stroke="#fff4e9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      </pattern>
+      <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+        <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#5a2940" flood-opacity=".20"/>
+      </filter>
+    </defs>
+  <rect width="800" height="700" rx="34" fill="url(#bg)"/>
+  <ellipse cx="405" cy="590" rx="280" ry="38" fill="#6d3850" opacity=".10"/>
+  
+        <g filter="url(#shadow)">
+          <path d="M135 175 L520 105 L690 245 L300 590 L105 430 Z" fill="url(#cloth)" stroke="#fff" stroke-opacity=".35" stroke-width="5"/>
+          <path d="M135 175 L520 105 L690 245 L300 590 L105 430 Z" fill="url(#motif)" opacity=".96"/>
+          <path d="M135 175 L520 105 L690 245 L300 590 L105 430 Z" fill="none" stroke="#ffffff" stroke-opacity=".7" stroke-width="5"/>
+          <path d="M105 430 L300 590 L690 245" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="10"/>
+        </g>
+  <g opacity=".8">
+    <circle cx="690" cy="95" r="34" fill="#f7d6e5" opacity=".55"/>
+    <path d="M690 75 q-24 -20 -32 4 q15 2 32 -4 M690 75 q23 -22 34 0 q-15 6 -34 0" fill="#9a5976" opacity=".7"/>
+  </g>
+  <text x="400" y="655" text-anchor="middle" font-family="Georgia,serif" font-size="25" font-weight="bold" fill="#65344d">Kain Motif Gigi Haruan</text>
 </svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="700" viewBox="0 0 800 700" role="img" aria-label="Kain Motif Kulat Karikit">
+  
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#fffafc"/>
+        <stop offset="1" stop-color="#edf3ff"/>
+      </linearGradient>
+      <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#174d91"/>
+        <stop offset="1" stop-color="#103768"/>
+      </linearGradient>
+      <pattern id="motif" width="82" height="72" patternUnits="userSpaceOnUse">
+        <g fill="none" stroke="#e9f3ff" stroke-width="4"><path d="M41 8 C55 20 66 31 41 64 C16 31 27 20 41 8Z"/><path d="M41 15 L41 58 M20 36 Q41 20 62 36 M25 48 Q41 38 57 48"/></g>
+      </pattern>
+      <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+        <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#5a2940" flood-opacity=".20"/>
+      </filter>
+    </defs>
+  <rect width="800" height="700" rx="34" fill="url(#bg)"/>
+  <ellipse cx="405" cy="590" rx="280" ry="38" fill="#6d3850" opacity=".10"/>
+  
+        <g filter="url(#shadow)">
+          <path d="M135 175 L520 105 L690 245 L300 590 L105 430 Z" fill="url(#cloth)" stroke="#fff" stroke-opacity=".35" stroke-width="5"/>
+          <path d="M135 175 L520 105 L690 245 L300 590 L105 430 Z" fill="url(#motif)" opacity=".96"/>
+          <path d="M135 175 L520 105 L690 245 L300 590 L105 430 Z" fill="none" stroke="#ffffff" stroke-opacity=".7" stroke-width="5"/>
+          <path d="M105 430 L300 590 L690 245" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="10"/>
+        </g>
+  <g opacity=".8">
+    <circle cx="690" cy="95" r="34" fill="#f7d6e5" opacity=".55"/>
+    <path d="M690 75 q-24 -20 -32 4 q15 2 32 -4 M690 75 q23 -22 34 0 q-15 6 -34 0" fill="#9a5976" opacity=".7"/>
+  </g>
+  <text x="400" y="655" text-anchor="middle" font-family="Georgia,serif" font-size="25" font-weight="bold" fill="#65344d">Kain Motif Kulat Karikit</text>
+</svg>
